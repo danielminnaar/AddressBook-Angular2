@@ -1,0 +1,11 @@
+        <h3>Address Book Contacts</h3>
+        <ul>
+            <li *ngFor="let contact of contacts">
+                <h4>{{contact.name}}</h4>
+                <h5>{{contact.company}}</h5>
+                <!--<rl-tag-input
+                    [(ngModel)]="tags"
+                    placeholder="Add any tag!">
+                </rl-tag-input>               -->
+            </li>
+        </ul>
