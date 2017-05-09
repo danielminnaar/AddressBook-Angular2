@@ -11,7 +11,7 @@ import { ContactService }       from "./contact.service";
 export class ContactsListComponent implements OnInit {
     contacts: Contact[];
     constructor(private contactService: ContactService) {} 
-    //public tags = ['Car', 'Bus', 'Train'];
+    public tags = ['Car', 'Bus', 'Train'];
     ngOnInit(): void {
         this.getContacts();
     }
